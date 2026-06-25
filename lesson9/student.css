@@ -1,0 +1,33 @@
+.conatiner{
+    border: 1px solid black;
+    width: 40rem;
+    height: 27rem;
+
+}
+.conatiner h2{
+    text-align: center;
+}
+.conatiner input{
+    width: 39rem;
+    height: 1.5rem;
+    margin-left: 5px;
+    margin-bottom: 17px;
+    font-size: 17px;
+   
+}
+.conatiner label{
+    margin-left: 5px;
+
+  
+}
+.conatiner button{
+    margin-left: 5px;
+        width: 39rem;
+        height: 2.5rem;
+        font-size: 18px;
+        cursor: pointer;
+}
+.conatiner button:hover{
+    color: white;
+    background-color: rgb(104, 104, 230);
+}

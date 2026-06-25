@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 40rem;
+    height: 20rem;
+    font-size: 19px;
+    margin-left: 10rem;
+}
+.container label{
+    margin-left: 2rem;
+}
+.container input{
+    width: 37rem;
+    height: 2.5rem;
+    font-size: 19px;
+    margin-left: 2rem;
+}
+.container button{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 37rem;
+    height: 2.5rem;
+    font-size: 19rpx;
+}
+img{
+    border-radius: 50px;
+    width: 450px;
+}
