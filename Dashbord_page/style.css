@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid black;
+    height: 44rem;
+    width: 27rem;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px;
+    margin: 50px auto;
+}
+.container h2{
+    text-align: center;
+    color: rgb(84, 84, 84);
+    margin: 2rem;
+}
+.container label{
+    margin-left: 50px;
+}
+.container .box{
+    width: 20rem;
+    margin-left: 50px;
+    height: 1.7rem;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.container #gender{
+    margin-top: 10px;
+}
+.gender{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.gender .gg{
+    width: 60%;
+}
+.container button{
+    margin-top: 35px;
+    width: 20rem;
+    height: 1.7rem;
+    font-size: 18px;
+    margin-left: 50px;
+    background-color: rgb(33, 33, 201);
+    color: aliceblue;
+    border: 5px;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: rgb(9, 9, 147);
+}
+#boox{
+    margin-top: 10px;
+    width: 20rem;
+    height: 1.7rem;
+    font-size: 18px;
+    margin-left: 3rem;
+}
+
+.container p{
+    text-align: center;
+}
+.container a{
+    margin-left: 12rem;
+    text-decoration: none;
+}
+.container a:hover{
+    color: blue;
+}
+
+
+/* login.php */
+.login{
+   border: 2px solid black;
+    height: 30rem;
+    width: 27rem;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 50px auto;
+
+}
+
+.login h2{
+    text-align: center;
+    color: rgb(84, 84, 84);
+    margin: 2rem;
+}
+.login label{
+    margin-left: 50px;
+}
+.login .box{
+    width: 20rem;
+    margin-left: 50px;
+    height: 1.7rem;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.login button{
+    margin-top: 35px;
+    width: 20rem;
+    height: 1.7rem;
+    font-size: 18px;
+    margin-left: 50px;
+    background-color: rgb(33, 33, 201);
+    color: aliceblue;
+    border: 5px;
+    cursor: pointer;
+
+}
+.login button:hover{
+    background-color: rgb(9, 9, 147);
+}
+.login #register{
+    margin-left:11rem;
+    font-size: 18px;
+    text-decoration: wavy;
+ 
+}
+.login p{
+    font-size: 18px;
+    text-align: center;
+    margin: 1rem;
+}
+.login #register:hover{
+    color: blue;
+}
+
+
+/* navbar  */
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1.1rem;
+   
+}
+.navbar .nav1{
+    color: rgb(77, 75, 75);
+    display: flex;
+    justify-content: space-around;
+    gap:1rem
+}
+
+.navbar .nav2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+   
+
+}
+.nav2 a{
+    text-decoration: none;
+}
+.nav2 a:hover{
+    color: black;
+}
+
+.nav2 button{
+    margin-right: 5rem;
+    width: 6rem;
+    height: 1.6rem;
+    padding: 2px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius:0.5rem;
+    cursor: pointer;
+}
+.nav2 button:hover{
+    background-color: rgb(24, 24, 125);
+}
+.navbar img{
+    width: 40px;
+    margin-left: 5rem;
+}
+hr{
+    border: 1px solid rgb(198, 191, 191);
+  
+}
+
+
+/* hero section */
+.hero{
+    background-color: rgb(207, 249, 249);
+    padding: 5rem;
+}
+.hero h1{
+    font-size: 3.6rem;
+    margin: 2rem;
+    text-align: center;
+    color: rgb(64, 62, 62);
+}
+.hero p{
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(101, 99, 99);
+}
+.search{
+    display: flex;
+   justify-content: center;
+    margin-top: 2rem;
+}
+.search input{
+    height: 2rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    
+}
+.search input::placeholder{
+    color: #888;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 2rem;
+
+}
+.search1{
+    display: flex; 
+}
+.search1 button{
+    width: 5rem;
+    margin-left: 0.4rem;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.search1 button:hover{
+    background-color: rgb(8, 8, 151);
+}
+
+
+/* serivce icons */
+.icons h3{
+   text-align: center;
+   padding: 2rem;
+   margin-top: 0.4rem;
+   background-color:white;
+   font-size: 1.8rem;
+   color: rgb(53, 52, 52);
+   cursor: pointer;
+}
+.icons{
+    margin: 2rem;
+}
+.services img{
+    width: 6rem;
+    margin-top: 2rem;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.services p{
+    font-weight: bold;
+}
+.services .electrician{
+ width: 25rem;
+    height: 10rem;
+    border: 1px solid rgb(212, 208, 208);
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+.services .electrician:hover{
+    box-shadow: 0px 5px 10px;
+}
+.services .airconditioner{
+ width: 25rem;
+    height: 10rem;
+ border: 1px solid rgb(212, 208, 208);
+    margin: 0.5rem;
+    text-align: center;
+     box-shadow: 0px 0px 0px;
+}
+.services .airconditioner:hover{    
+            box-shadow: 0px 5px 10px;
+}
+
+.services .carpenter{
+ width: 25rem;
+    height: 10rem;
+ border: 1px solid rgb(212, 208, 208);
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+.services .carpenter:hover{
+        box-shadow: 0px 5px 10px;
+
+}
+.services .cleaner{
+ width: 25rem;
+    height: 10rem;
+ border: 1px solid rgb(212, 208, 208);
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+.services .cleaner:hover{
+                box-shadow: 0px 5px 10px;
+
+}
+
+.services .veteinary{
+ width: 25rem;
+    height: 10rem;
+ border: 1px solid rgb(212, 208, 208);
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+.services .veteinary:hover{
+                box-shadow: 0px 5px 10px;
+
+}
+
+.services .plumber{
+ width: 25rem;
+    height: 10rem;
+ border: 1px solid rgb(212, 208, 208);
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+.services .plumber:hover{
+            box-shadow: 0px 5px 10px;
+
+}
+
+.services .tutor{
+ width: 25rem;
+    height: 10rem;
+ border: 1px solid rgb(212, 208, 208);
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+.services .tutor:hover{
+             box-shadow: 0px 5px 10px;
+
+}
+
+.services .panter{
+    width: 25rem;
+    height: 10rem;
+ border: 1px solid rgb(212, 208, 208);
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+
+.services .panter:hover{
+            box-shadow: 0px 5px 10px;
+
+}
+.icons h2{
+    margin-top: 3rem;
+    text-align: center;
+    color: rgb(56, 56, 56);
+}
+
+/* 3 cards */
+.service-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 4rem;
+    
+}
+.card1 img{
+    width: 10rem;
+    border-radius: 250px;
+    margin: 20px;
+}
+.card1{
+    text-align: center;
+    width: 20rem;
+    height: 23rem;
+    border: 1px solid rgb(176, 171, 171);
+    border-radius: 1rem;
+}
+.card1:hover{
+    box-shadow: 0px 5px 10px;
+}
+.card1 h4{
+    font-size: 18px;
+    margin: 10px;
+}
+.card1 button{
+    margin: 30px auto;
+    width: 19rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border: none;
+}
+.card1 button:hover{
+    background-color: rgb(17, 70, 17);
+    color: white;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(42, 169, 205);
+    height: 3rem;
+}
+.icons a{
+    text-decoration: none;
+}
+.footer .icons {
+    display: flex;
+    gap:20px;
+}
